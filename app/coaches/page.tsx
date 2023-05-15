@@ -1,7 +1,6 @@
 import React from "react";
 import { getCoaches } from "@/sanity/sanity-utils";
 import Image from "next/image";
-import { urlForImage } from "@/sanity/lib/image";
 import Link from "next/link";
 
 export default async function Coaches() {
