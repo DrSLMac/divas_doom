@@ -1,7 +1,6 @@
 import { groq } from "next-sanity"
 import { client } from "./lib/client"
 import { Coach } from "@/types/Coach"
-import { Social } from "@/types/Social"
 
 export async function getCoaches(): Promise<Coach[]> {
     return client.fetch(

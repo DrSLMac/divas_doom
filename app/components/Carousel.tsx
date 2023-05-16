@@ -13,7 +13,7 @@ const Carousel = ({ params }: Props) => {
             <motion.div className=' scroll-smooth overflow-hidden
             flex justify-evenly items-center mx-auto'>
                 <div className='w-full flex space-x-36 snap-x snap-mandatory overflow-x-scroll p-10 '>
-                    {images.map((image) => (
+                    {/* {images.map((image) => (
                         <Image 
                             key={image.id}
                             src={image.src.src}
@@ -23,7 +23,7 @@ const Carousel = ({ params }: Props) => {
                             className='rounded-md border border-navy-blue shadow-4xl h-auto'
                             priority
                         />
-                    ))}
+                    ))} */}
                 </div>
             </motion.div>
         </section>

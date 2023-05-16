@@ -11,7 +11,7 @@ export default async function Coaches() {
 
   return (
     <div>
-      <h1>This is the coaches' page.</h1>
+      <h1>This is the coaches&apos; page.</h1>
       <h2>It will show a grid of coach profiles pics and name. </h2>
 
       <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">

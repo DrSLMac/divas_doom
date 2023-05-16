@@ -6,25 +6,25 @@ import PropTypes from 'prop-types'
 
 const MenuBar = () => {
   
-  const [firstMenu, setFirstMenu] = useState(null)
-  const [secondMenu, setSecondMenu] = useState(null)
-  const [thirdMenu, setThirdMenu] = useState(null);
-  const [fourthMenu, setFourthMenu] = useState(null)
+  const [firstMenu, setFirstMenu] = useState<null | HTMLElement>(null)
+  const [secondMenu, setSecondMenu] = useState<null | HTMLElement>(null)
+  const [thirdMenu, setThirdMenu] = useState<null | HTMLElement>(null);
+  const [fourthMenu, setFourthMenu] = useState<null | HTMLElement>(null)
 
   const openFirst = Boolean(firstMenu)
-  const handleFirstClick = (event) => setFirstMenu(event.currentTarget);
+  const handleFirstClick = (event: MouseEvent<HTMLElement>) => setFirstMenu(event.currentTarget);
   const closeFirst = () => setFirstMenu(null)
   
   const openSecond = Boolean(secondMenu);
-  const handleSecondClick = (event) => setSecondMenu(event.currentTarget);
+  const handleSecondClick = (event: MouseEvent<HTMLElement>) => setSecondMenu(event.currentTarget);
   const closeSecond = () => setSecondMenu(null);
 
   const openThird = Boolean(thirdMenu);
-  const handleThirdClick = (event) => setThirdMenu(event.currentTarget);
+  const handleThirdClick = (event: MouseEvent<HTMLElement>) => setThirdMenu(event.currentTarget);
   const closeThird = () => setThirdMenu(null);
 
   const openFourth = Boolean(fourthMenu);
-  const handleFourthMenu = (event) => setFourthMenu(event.currentTarget);
+  const handleFourthMenu = (event: MouseEvent<HTMLElement>) => setFourthMenu(event.currentTarget);
   const closeFourth = () => setFourthMenu(null);
 
   return (

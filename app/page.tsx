@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import NavBar from './components/NavBar'
-import { Social } from '@/types/Social';
+
 import Banner from './components/Banner';
-import Carousel from './components/Carousel';
+// import Carousel from './components/Carousel';
 import { Inspiration } from 'next/font/google'
 
 const inspiration = Inspiration({ 
