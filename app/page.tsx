@@ -7,7 +7,6 @@ export default async function Home() {
 
   return (
       <>
-        This is the home page
         {/* Navigation bar with socials and menu bar */}
         <NavBar />
 

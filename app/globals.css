@@ -1,27 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* 
+.contactInput {
+  @apply outline-none cursor-pointer bg-slate-100/80 rounded-md shadow-4xl px-6 py-3 border-b-4 border-navy-blue/40 text-deep-red placeholder-gray-500 transition-all focus:border-navy-blue/70 focus:text-deep-red hover:border-navy-blue
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.coachProfile {
+  @apply flex items-center justify-between lg:flex-col p-2 bg-stone-300 border-2 border-navy-blue rounded-md shadow-4xl hover:bg-stone-400 transition-all hover:-translate-y-1 hover:scale-105 active:shadow-lg
+  text-xs
+  minism:text-base
+  lg:h-[18rem] lg:w-[18rem]
+  xl:w-[20rem] 
+  2xl:w-[22rem]
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.coachPic {
+  @apply cursor-pointer lg:w-40 h-auto
+}
+
+.pageButtons {
+  @apply flex items-center text-white bg-deep-red rounded-[2rem] shadow-2xl duration-300 ease-in-out transition-all 
+  hover:bg-navy-blue hover:text-white hover:-translate-y-1 hover:scale-105 hover:shadow-4xl
+  active:translate-y-px active:shadow-lg
+}
+
+.teamSnapshot {
+  @apply flex bg-slate-300 rounded-md shadow-4xl cursor-pointer h-[24vh] 2xl:h-[30vh] hover:bg-gradient-to-t from-deep-red hover:text-white
 } */
