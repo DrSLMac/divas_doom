@@ -5,9 +5,9 @@ import { SocialIcon } from 'react-social-icons'
 import MenuBar from './MenuBar'
 import Link from 'next/link'
 import Image from 'next/image'
-// import SmNavBar from './SmNavBar'
-// import MobileNavBar from './MobileNavBar'
+
 import divaLogo from '../../public/divas.png'
+import MobileMenu from './MobileMenu'
 
 
 const NavBar = () => {
@@ -29,7 +29,7 @@ const NavBar = () => {
                 xl:pl-16
                 '>
                 <div className='sm:hidden'>
-                    {/* <Link href='/'>
+                    <Link href='/'>
                         <Image 
                             src={divaLogo}
                             alt='Divas Logo'
@@ -37,7 +37,7 @@ const NavBar = () => {
                             className='cursor-pointer'
                             priority
                         />
-                    </Link> */}
+                    </Link>
                 </div>
                     <SocialIcon 
                         url="https://www.facebook.com/texasdivasbasketball" 
@@ -75,10 +75,8 @@ const NavBar = () => {
     
                 <MenuBar />
                 </motion.div>
-            {/* </div> */}
+            <MobileMenu />
     
-    
-            {/* <MobileNavBar /> */}
         </section>
     )
   }
