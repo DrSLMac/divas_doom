@@ -28,7 +28,7 @@ export default async function Home() {
             <h1 className={inspiration.className}>Don&apos;t Let the Name Fool You</h1>
         </div>
         <div className="sm:pt-4">
-            <Carousel images={images} />
+            {/* <Carousel images={images} /> */}
         </div>
         <div className="invisible sm:visible sm:text-navy-blue bg-gradient-to-b from-transparent from-3% via-slate-600 to-slate-100 to-100%">
             <div className="py-4 text-3xl md:text-4xl text-white">
