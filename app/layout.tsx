@@ -6,6 +6,7 @@ const livvic = Livvic({
   weight: ['300', '400', '500', '700', '900'],
 })
 
+
 export const metadata = {
   title: 'Divas & Doom Basketball',
   description: 'Divas & Doom Basketball club is a premier youth basketball club with top notch coaches.',

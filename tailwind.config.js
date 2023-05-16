@@ -22,7 +22,7 @@ module.exports = {
         'light-red': '#F0949F'
       },
       backgroundImage: {
-        'hero-background': "url('../public/dallas-skyline.png')",
+        'hero-background': "url('../public/bball-bg.jpeg')",
         'bball-bg': "url('../public/bball-bg.jpeg')",
         'contact-bg': "url('../public/contact-bg.jpeg')",
         'bball-hoop': "url('../public/bball-hoop-bg.jpeg')",
