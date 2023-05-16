@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default async function Coaches() {
+  
   const coaches = await getCoaches();
   const sortedCoaches = coaches.sort((a, b) => {
     return a.id - b.id;

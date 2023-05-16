@@ -1,6 +1,7 @@
 import { groq } from "next-sanity"
 import { client } from "./lib/client"
 import { Coach } from "@/types/Coach"
+import { CarouselPics } from "@/types/CarouselPics"
 
 export async function getCoaches(): Promise<Coach[]> {
     return client.fetch(
@@ -30,3 +31,14 @@ export async function getCoach(slug: string): Promise<Coach> {
         }`,
         { slug }
     )};
+
+export async function getCarouselPics(): Promise<CarouselPics[]> {
+    return client.fetch(
+        groq`*[_type == "carouselPics"]{
+            _id,
+            _createdAt,
+            id,
+            "image": image.asset->url,
+        }`
+    )
+}
