@@ -4,11 +4,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Link from 'next/link';
 import PropTypes from 'prop-types'
 
-type Props = {
-  params: { event: string }
-}
-
-const MenuBar = ({ params }: Props) => {
+const MenuBar = () => {
   
   const [firstMenu, setFirstMenu] = useState(null)
   const [secondMenu, setSecondMenu] = useState(null)
